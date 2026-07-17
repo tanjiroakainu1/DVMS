@@ -1,4 +1,5 @@
-export { VolunteerDashboard, volunteerNav } from './VolunteerDashboard'
+export { VolunteerDashboard } from './VolunteerDashboard'
+export { volunteerNav } from './nav'
 export { RegisterVolunteer } from './RegisterVolunteer'
 export { UpdateProfile } from './UpdateProfile'
 export { ApplyMissions } from './ApplyMissions'

@@ -6,18 +6,7 @@ import { Button } from '../../components/ui/Button'
 import { Badge } from '../../components/ui/Badge'
 import { DataTable, Td } from '../../components/ui/DataTable'
 import { LazyVolunteerCharts } from '../../components/charts/LazyDashboardCharts'
-
-export const volunteerNav = [
-  { label: 'Dashboard', path: '' },
-  { label: 'Register', path: 'register-volunteer' },
-  { label: 'Profile', path: 'update-profile' },
-  { label: 'Missions', path: 'apply-missions' },
-  { label: 'Tasks', path: 'view-tasks' },
-  { label: 'Check In', path: 'check-in-out' },
-  { label: 'Reports', path: 'upload-activity-reports' },
-  { label: 'History', path: 'service-history' },
-  { label: 'Alerts', path: 'emergency-alerts' },
-]
+import { volunteerNav } from './nav'
 
 export function VolunteerDashboard() {
   const { user } = useAuth()

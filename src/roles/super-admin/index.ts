@@ -1,4 +1,5 @@
-export { SuperAdminDashboard, superAdminNav } from './SuperAdminDashboard'
+export { SuperAdminDashboard } from './SuperAdminDashboard'
+export { superAdminNav } from './nav'
 export { ManageUsers } from './ManageUsers'
 export { ManageRoles } from './ManageRoles'
 export { ConfigureSettings } from './ConfigureSettings'

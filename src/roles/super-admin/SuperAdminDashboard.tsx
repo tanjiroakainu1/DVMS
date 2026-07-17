@@ -5,18 +5,7 @@ import { Button } from '../../components/ui/Button'
 import { Badge } from '../../components/ui/Badge'
 import { DataTable, Td } from '../../components/ui/DataTable'
 import { LazySuperAdminCharts } from '../../components/charts/LazyDashboardCharts'
-
-export const superAdminNav = [
-  { label: 'Dashboard', path: '' },
-  { label: 'Users', path: 'manage-users' },
-  { label: 'Roles', path: 'manage-roles' },
-  { label: 'Settings', path: 'configure-settings' },
-  { label: 'Categories', path: 'manage-categories' },
-  { label: 'Records', path: 'view-records' },
-  { label: 'Reports', path: 'generate-reports' },
-  { label: 'Backup', path: 'backup-restore' },
-  { label: 'Monitor', path: 'monitor-activities' },
-]
+import { superAdminNav } from './nav'
 
 export function SuperAdminDashboard() {
   const { users, operations, logs, volunteerProfiles } = useData()

@@ -88,7 +88,7 @@ interface DataContextValue {
 
 const DataContext = createContext<DataContextValue | null>(null)
 
-export const STORAGE_PREFIX = 'dvms_data_v1_'
+const STORAGE_PREFIX = 'dvms_data_v1_'
 
 function readStoredValue<T>(key: string, fallback: T): T {
   try {

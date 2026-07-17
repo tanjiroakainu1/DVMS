@@ -5,18 +5,7 @@ import { Button } from '../../components/ui/Button'
 import { Badge } from '../../components/ui/Badge'
 import { DataTable, Td } from '../../components/ui/DataTable'
 import { LazyCoordinatorCharts } from '../../components/charts/LazyDashboardCharts'
-
-export const coordinatorNav = [
-  { label: 'Dashboard', path: '' },
-  { label: 'Operations', path: 'create-operations' },
-  { label: 'Approvals', path: 'approve-volunteers' },
-  { label: 'Assign', path: 'assign-volunteers' },
-  { label: 'Centers', path: 'manage-evacuation-centers' },
-  { label: 'Shifts', path: 'schedule-shifts' },
-  { label: 'Deployment', path: 'monitor-deployment' },
-  { label: 'Relief', path: 'manage-relief-activities' },
-  { label: 'Reports', path: 'generate-operation-reports' },
-]
+import { coordinatorNav } from './nav'
 
 export function CoordinatorDashboard() {
   const { operations, users, centers, shifts } = useData()

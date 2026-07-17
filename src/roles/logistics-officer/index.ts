@@ -1,4 +1,5 @@
-export { LogisticsDashboard, logisticsNav } from './LogisticsDashboard'
+export { LogisticsDashboard } from './LogisticsDashboard'
+export { logisticsNav } from './nav'
 export { ManageInventory } from './ManageInventory'
 export { AllocateSupplies } from './AllocateSupplies'
 export { TrackEquipment } from './TrackEquipment'

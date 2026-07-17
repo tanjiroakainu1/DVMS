@@ -1,4 +1,5 @@
-export { CoordinatorDashboard, coordinatorNav } from './CoordinatorDashboard'
+export { CoordinatorDashboard } from './CoordinatorDashboard'
+export { coordinatorNav } from './nav'
 export { CreateOperations } from './CreateOperations'
 export { ApproveVolunteers } from './ApproveVolunteers'
 export { AssignVolunteers } from './AssignVolunteers'

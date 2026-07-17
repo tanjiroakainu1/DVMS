@@ -5,18 +5,7 @@ import { Button } from '../../components/ui/Button'
 import { Badge } from '../../components/ui/Badge'
 import { DataTable, Td } from '../../components/ui/DataTable'
 import { LazyLogisticsCharts } from '../../components/charts/LazyDashboardCharts'
-
-export const logisticsNav = [
-  { label: 'Dashboard', path: '' },
-  { label: 'Inventory', path: 'manage-inventory' },
-  { label: 'Allocate', path: 'allocate-supplies' },
-  { label: 'Equipment', path: 'track-equipment' },
-  { label: 'Distribution', path: 'monitor-distribution' },
-  { label: 'Donations', path: 'record-donations' },
-  { label: 'Reports', path: 'generate-logistics-reports' },
-  { label: 'Warehouse', path: 'monitor-warehouse' },
-  { label: 'Deliveries', path: 'coordinate-deliveries' },
-]
+import { logisticsNav } from './nav'
 
 export function LogisticsDashboard() {
   const { inventory, donations, deliveries, vehicles } = useData()
